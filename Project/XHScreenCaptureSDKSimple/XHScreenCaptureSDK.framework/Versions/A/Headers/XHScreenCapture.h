@@ -29,7 +29,11 @@ typedef void(^CompileFilesToMakeMovieBlock)(void);
 -(void)cancel;
 
 // Composition
-+ (void)compileFilesToMakeMovieOutputPath:(NSString *)outputPath videoInputPath:(NSString *)videoInputPath audioInputPath:(NSString *)soundInputPath CompileFilesToMakeMovieBlock:(CompileFilesToMakeMovieBlock)compileFilesToMakeMovieBlock;
++ (void)compileFilesToMakeMovieOutputPath:(NSString *)outputPath
+                           videoInputPath:(NSString *)videoInputPath
+                           audioInputPath:(NSString *)soundInputPath
+             CompileFilesToMakeMovieBlock:(CompileFilesToMakeMovieBlock)compileFilesToMakeMovieBlock
+               hasSavingVideoToCameraRoll:(BOOL)hasSavingVideoToCameraRoll;
 
 @end
 

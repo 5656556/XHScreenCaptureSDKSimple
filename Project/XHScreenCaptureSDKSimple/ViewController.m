@@ -90,7 +90,7 @@
                 XHVideoPlayViewController *videoPlayViewController = [[XHVideoPlayViewController alloc] init];
                 videoPlayViewController.videoPath = videoOutputPath;
                 [self.navigationController pushViewController:videoPlayViewController animated:YES];
-            }];
+            } hasSavingVideoToCameraRoll:NO];
         }];
     }
     
