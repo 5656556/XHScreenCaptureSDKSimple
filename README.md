@@ -66,10 +66,6 @@ screenCapture = [[XHScreenCapture alloc] init];
 }];       
 ```     
 
-## open source model
-1, here is the SDK mode    
-2, as long as pay attention to the component of a total of more than 500 users, will with all open source code model.   
-
 Please click to all open source code: https://github.com/JackTeam/XHScreenCaptureSDKSimple     
 
 请移步到开源所有代码：https://github.com/JackTeam/XHScreenCaptureSDKSimple   
